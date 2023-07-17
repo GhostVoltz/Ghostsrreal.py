@@ -1,2 +1,2 @@
 # Ghostsrreal.py
-A melhot e maior ferramenta ja criada ;)
+A melhor e maior ferramenta ja criada ;)
